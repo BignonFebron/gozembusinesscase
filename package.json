@@ -1,0 +1,36 @@
+{
+  "name": "gozemtest",
+  "version": "0.1.0",
+  "description": "Gozem backend developper business case",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BignonFebron/gozemtest.git"
+  },
+  "keywords": [
+    "Gozem",
+    "nodejs",
+    "express",
+    "google",
+    "maps",
+    "api"
+  ],
+  "author": "Bignon Febron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BignonFebron/gozemtest/issues"
+  },
+  "homepage": "https://github.com/BignonFebron/gozemtest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "google-distance-matrix": "^1.1.1",
+    "morgan": "^1.10.0",
+    "node-google-timezone": "^0.1.1",
+    "reverse-geocoding-google": "^1.1.0"
+  }
+}
